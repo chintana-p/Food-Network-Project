@@ -1,4 +1,10 @@
 
+@media only screen and (min-width: 815px) {
+    .table  {
+      width: 50%;
+      height: 100px;
+    }
+    
 .banner
 {
     margin: 0px;
@@ -28,6 +34,7 @@
     top:300px;
     left:500px;
     transform: translate(65%, -40%);
+}
 }
 @media only screen and (min-width: 815px) {
     .table  {
