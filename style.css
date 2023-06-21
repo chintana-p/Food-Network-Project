@@ -28,6 +28,24 @@
     left:500px;
     transform: translate(65%, -40%);
 }
+@media (max-width: 768px) {
+    .card {
+        background-color: white;
+        border: 1px solid #bacdd8;
+        padding: 12px;
+        border-radius: 12px;
+        box-shadow:  4px 8px 0 rgba(143, 143, 143, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        max-width: 78%;
+        height: 450pxpx;   
+    }
+    .tab1cards {
+        display: flex;
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        justify-content: space-between;
+    }
+}
 .card {
     background-color: white;
     border: 1px solid #bacdd8;
