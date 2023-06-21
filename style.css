@@ -41,8 +41,6 @@
       width: 50%;
       height: 100px;
     }
-    
-  }
 .card {
     background-color: white;
     border: 1px solid #bacdd8;
@@ -72,4 +70,5 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     justify-content: space-between;
+}
 }
